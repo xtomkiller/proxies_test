@@ -18,6 +18,6 @@ The tool allows you to quickly ide
     apt install python3
     git clone https://github.com/xtomkiller/proxies_test
     cd proxies_test
-    pip install requests termcolor
+    pip install requests termcolor aiohttp
     python3 normal_proxies.py & alternative python3 fast_proxies.py 
 
