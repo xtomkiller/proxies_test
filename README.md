@@ -14,6 +14,10 @@ The proxies tool is a script that helps you check the validity of a list of prox
     If there are any verified proxies, it notifies that the verified proxies have been saved in the "proxies_verify.txt" file.
 
 The tool allows you to quickly ide
-# Requirement & setup this tool 
-$ 
-$ pip install requests termcolor
+#       Requirement & setup this tool
+    apt install python3
+    git clone https://github.com/xtomkiller/proxies_test
+    cd proxies_test
+    pip install requests termcolor
+    python3 normal_proxies.py & alternative python3 fast_proxies.py 
+
