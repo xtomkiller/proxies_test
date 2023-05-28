@@ -1,5 +1,6 @@
 import requests
 from termcolor import colored
+from pyfiglet import Figlet
 
 def check_proxy(proxy):
     try:
@@ -19,6 +20,11 @@ def test_proxies():
         checked_proxies = 0
         verified_proxies = 0
         not_working_proxies = 0
+
+        figlet = Figlet(font='big')
+        banner = colored(figlet.renderText('Normal Proxy X'), 'blue')
+        developer = colored('Trusted Hacker', 'cyan')
+        print(f'{banner}\nDeveloped by {developer}\n')
 
         print(colored(f'Total proxies to check: {total_proxies}', 'yellow'))
 
